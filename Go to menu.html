@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style >
+		#c{
+			  width: 100%;}
+			  th,td{
+			  	 border: 1px solid #ddd;
+  padding: 8px;
+			  }
+th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+		
+	</style>
+</head>
+<body>
+
+	<?php
+
+$dbase = new  mysqli('localhost','root','','homy') OR die('not connected');
+echo "connected";  
+$x1= mysqli_query($dbase , 'select name from dish');
+$x2= mysqli_query($dbase , 'select dish_id from dish');
+$x3= mysqli_query($dbase , 'select price from dish');
+
+?>
+
+
+
+
+
+<table id="c">
+<tr>
+	<th>dish name</th>
+	<th>dish id</th>
+	<th>dish price</th>
+</tr>
+<tr>
+	<td>
+		<?php
+echo mysqli_fetch_array($x1)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x2)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x3)[0];
+
+
+		?>
+
+	</td>
+</tr>
+<tr>
+		<td>
+		<?php
+echo mysqli_fetch_array($x1)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x2)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x3)[0];
+
+
+		?>
+
+	</td>
+</tr>
+<tr>
+		<td>
+		<?php
+echo mysqli_fetch_array($x1)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x2)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x3)[0];
+
+
+		?>
+
+	</td>
+</tr>
+<tr>
+		<td>
+		<?php
+echo mysqli_fetch_array($x1)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x2)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x3)[0];
+
+
+		?>
+
+	</td>
+</tr>
+<tr>
+		<td>
+		<?php
+echo mysqli_fetch_array($x1)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x2)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x3)[0];
+
+
+		?>
+
+	</td>
+</tr>
+<tr>
+		<td>
+		<?php
+echo mysqli_fetch_array($x1)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x2)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x3)[0];
+
+
+		?>
+
+	</td>
+</tr>
+<tr>
+		<td>
+		<?php
+echo mysqli_fetch_array($x1)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x2)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x3)[0];
+
+
+		?>
+
+	</td>
+</tr>
+<tr>
+		<td>
+		<?php
+echo mysqli_fetch_array($x1)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x2)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x3)[0];
+
+
+		?>
+
+	</td>
+</tr>
+<tr>
+		<td>
+		<?php
+echo mysqli_fetch_array($x1)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x2)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x3)[0];
+
+
+		?>
+
+	</td>
+</tr>
+<tr>
+		<td>
+		<?php
+echo mysqli_fetch_array($x1)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x2)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x3)[0];
+
+
+		?>
+
+	</td>
+</tr>
+<tr>
+		<td>
+		<?php
+echo mysqli_fetch_array($x1)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x2)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x3)[0];
+
+
+		?>
+
+	</td>
+</tr>
+<tr>
+		<td>
+		<?php
+echo mysqli_fetch_array($x1)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x2)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x3)[0];
+
+
+		?>
+
+	</td>
+</tr>
+<tr>
+		<td>
+		<?php
+echo mysqli_fetch_array($x1)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x2)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x3)[0];
+
+
+		?>
+
+	</td>
+</tr>
+<tr>
+		<td>
+		<?php
+echo mysqli_fetch_array($x1)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x2)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x3)[0];
+
+
+		?>
+
+	</td>
+</tr>
+<tr>
+		<td>
+		<?php
+echo mysqli_fetch_array($x1)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x2)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x3)[0];
+
+
+		?>
+
+	</td>
+</tr>
+<tr>
+		<td>
+		<?php
+echo mysqli_fetch_array($x1)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x2)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x3)[0];
+
+
+		?>
+
+	</td>
+</tr>
+<tr>
+		<td>
+		<?php
+echo mysqli_fetch_array($x1)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x2)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x3)[0];
+
+
+		?>
+
+	</td>
+</tr>
+<tr>
+		<td>
+		<?php
+echo mysqli_fetch_array($x1)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x2)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x3)[0];
+
+
+		?>
+
+	</td>
+</tr>
+<tr>
+		<td>
+		<?php
+echo mysqli_fetch_array($x1)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x2)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x3)[0];
+
+
+		?>
+
+	</td>
+</tr>
+<tr>
+		<td>
+		<?php
+echo mysqli_fetch_array($x1)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x2)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x3)[0];
+
+
+		?>
+
+	</td>
+</tr>
+<tr>
+		<td>
+		<?php
+echo mysqli_fetch_array($x1)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x2)[0];
+
+
+		?>
+
+	</td>
+		<td>
+		<?php
+echo mysqli_fetch_array($x3)[0];
+
+
+		?>
+
+	</td>
+</tr>
+</body>
+</html>
+
